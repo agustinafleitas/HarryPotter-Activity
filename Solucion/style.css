@@ -1,0 +1,56 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.gryffindor {
+    background-color: #A50034; /* Rojo */
+    color: white;
+}
+
+.hufflepuff {
+    background-color: #D9A700; /* Amarillo */
+    color: black;
+}
+
+.ravensclaw {
+    background-color: #0E4DA4; /* Azul */
+    color: white;
+}
+
+.slytherin {
+    background-color: #2A623D; /* Verde */
+    color: white;
+}
+
+button {
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1); /* Efecto de agrandar en hover */
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+}
+
+p.lead {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#CasaImagen {
+    width: 200px; /* Cambia el tamaño según necesites */
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.lema {
+    font-size: 1.2rem; 
+    font-style: italic;
+    margin-top: 10px;
+    color: #f8f9fa; /* Cambiar el color según el fondo */
+    transition: opacity 0.5s ease; /* Transición suave */
+}

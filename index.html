@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas de Harry Potter</title>
+    <!-- Estilos con bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="gryffindor">
+    <div class="container text-center mt-5">
+        <h1 class="mb-4 display-4">Selecciona tu Casa de Hogwarts</h1>
+        <p class="lead">Elige sabiamente y muestra tu orgullo por tu casa.</p>
+
+        <div class="d-flex justify-content-center mb-4">
+            <img id="CasaImagen" src="" alt="Casa Hogwarts" class="img-fluid mb-3" />
+        </div>
+
+        <div class="mb-5">
+            <button class="btn btn-danger btn-lg" onclick="changeHouse('gryffindor')">Gryffindor</button>
+            <button class="btn btn-warning btn-lg" onclick="changeHouse('hufflepuff')">Hufflepuff</button>
+            <button class="btn btn-primary btn-lg" onclick="changeHouse('ravensclaw')">Ravenclaw</button>
+            <button class="btn btn-secondary btn-lg" onclick="changeHouse('slytherin')">Slytherin</button>
+        </div>
+        <p id="lema" class="lema"></p> <!-- Para el lema de la casa -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
